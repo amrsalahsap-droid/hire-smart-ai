@@ -1,4 +1,3 @@
-import { Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -6,7 +5,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container flex items-center justify-between h-16">
         <div className="flex items-center gap-2">
-          <Shield className="w-6 h-6 text-accent" />
+          <img src="/logo.png" alt="HireShield logo" className="w-8 h-8" />
           <span className="text-lg font-bold font-display text-foreground">HireShield</span>
         </div>
 
